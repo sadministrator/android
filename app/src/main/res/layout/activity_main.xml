@@ -9,24 +9,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <EditText
-            android:id = "@+id/editText2"
-            android:layout_width = "wrap_content"
-            android:layout_height = "wrap_content"
-            android:inputType = "textPassword" />
-
-        <EditText
-            android:id = "@+id/editText1"
-            android:layout_width = "wrap_content"
-            android:layout_height = "wrap_content"
-            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cat"
+            android:text="cat" />
 
         <Button
-            android:id = "@+id/button1"
-            android:layout_width = "wrap_content"
-            android:layout_height = "wrap_content"
-            android:text = "tt"
-            />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dog"
+            android:text="dog" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fish"
+            android:text="fish" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
