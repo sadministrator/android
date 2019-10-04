@@ -8,24 +8,28 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/cat"
+            android:layout_weight="1"
+            android:id="@+id/text_btn"
             android:text="cat" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/dog"
+            android:layout_weight="1"
+            android:id="@+id/recycle_btn"
             android:text="dog" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/fish"
-            android:text="fish" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

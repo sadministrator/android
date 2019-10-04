@@ -23,6 +23,7 @@ class Login : AppCompatActivity() {
                 putExtra("pass", password)
                 Toast.makeText(this@Login, username, Toast.LENGTH_LONG).show()
             }
+            startActivity(intent)
         }
     }
 }
