@@ -5,9 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Adapter
-import android.widget.FrameLayout
-import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -18,7 +15,7 @@ class RecycleFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?):View?{
         val v = inflater.inflate(R.layout.activity_recyclefrag, container, false)
-        val recyclerView:RecyclerView=v.findViewById(R.id.recycler)
+        val recyclerView:RecyclerView = v.findViewById(R.id.recycler)
         recyclerView.layoutManager=LinearLayoutManager(null,LinearLayoutManager.VERTICAL,false)
         val items = ArrayList<Item>()
 

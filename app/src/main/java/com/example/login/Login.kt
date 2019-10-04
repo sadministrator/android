@@ -13,14 +13,11 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         btn_submit.setOnClickListener {
-           // Toast.makeText(this, "qwe", Toast.LENGTH_LONG).show()
             val username = et_username.text.toString();
-            val password = et_password.text.toString();
+            //val password = et_password.text.toString();
             setContentView(R.layout.activity_main);
 
             val intent = Intent(this, MainActivity::class.java).apply {
-                putExtra("user", username)
-                putExtra("pass", password)
                 Toast.makeText(this@Login, username, Toast.LENGTH_LONG).show()
             }
             startActivity(intent)

@@ -6,7 +6,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.activity_info.*
 
 class ItemAdapter(var list: ArrayList<Item>): RecyclerView.Adapter<ItemAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

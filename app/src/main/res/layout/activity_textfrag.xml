@@ -4,14 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eaa221"
+    android:background="#fbb332"
     android:gravity="center"
     tools:context=".TextFragment"
-    android:layout_marginTop="60dp">
+    android:layout_marginTop="50dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You logged in!\nAnyone can lol"
+        android:text="You logged in!!!!!!\nAnyone can lol😸"
         android:textSize="50sp"/>
 </LinearLayout>
