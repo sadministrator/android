@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="#eaa221"
     android:gravity="center"
-    tools:context=".TextFragment">
+    tools:context=".TextFragment"
+    android:layout_marginTop="60dp">
 
     <TextView
         android:layout_width="wrap_content"
